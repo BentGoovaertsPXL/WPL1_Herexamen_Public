@@ -1,0 +1,419 @@
+/* Index */
+
+* {
+	scroll-behavior: smooth;
+	font-family: "Oxanium";
+}
+
+Html {
+	background-color: #0D0D0D;
+	font-weight: 300;
+}
+
+body {
+	margin: 0px;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: "Oxanium";
+	font-weight: 400;
+	color: #FF0000;
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+	margin-top: 10%;
+}
+
+h3 {
+	font-size: 40px;
+	font-family: "Oxanium";
+	font-weight: 400;
+	color: #FF0000;
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+}
+
+h4 {
+	font-size: 36px;
+	font-family: "Oxanium";
+	font-weight: 300;
+	color: #FF0000;
+	margin-top: 0px;
+	margin-bottom: 0px;	
+}
+
+h5 {
+	font-size: 18px;
+	font-family: "Oxanium";
+	font-weight: 300;
+	color: #FF0000;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h6 {
+	font-size: 14px;
+	font-family: "Oxanium";
+	font-weight: 300;
+	color: #FF0000;
+	text-align: right;
+	margin-top: 0px;
+}
+
+#NavBar {
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 72px;
+	color: #FF0000;
+	display: flex;
+	justify-content: space-around;
+	top: 0px;
+	background-color: #0D0D0D;
+}
+
+#Title {
+	position: relative;
+	float: left;
+	font-size: 20px;
+	width: fit-content;
+	height: fit-content;
+	padding: 21px 0px;
+	margin: 0px;
+	left: 0%;
+	font-family: "Tektur";
+	font-weight: 600;
+	text-decoration: none;
+}
+
+#Title:link {
+	color: #FF0000;
+}
+
+#Title:visited {
+	color: #FF0000;
+}
+
+#Title:hover {
+	color: #FF0000;
+}
+
+#Title:active {
+	color: #FF0000;
+}
+
+#NavList {
+	position: relative;
+	float: left;
+	width: fit-content;
+	height: 34px;
+	padding: 24px 21px;
+}
+#NavList a {
+	position: relative;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 0px 10px;
+}
+
+#NavList a:link {
+	color: #FFFFFF;
+}
+
+#NavList a:visited {
+	color: #FFFFFF;
+}
+
+#NavList a:hover {
+	color: #FF0000;
+}
+
+#NavList a:active {
+	color: #FF0000;
+}
+
+.BackgroundSegment1 {
+	position: relative;
+	background-color: #0D0D0D;
+	width: 100%;
+	left: 0%;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	z-index: 1;
+}
+
+.BackgroundSegment2 {
+	position: relative;
+	background-color: #141414;
+	width: 100%;
+	left: 0%;
+	height: 1000px;
+	z-index: 2;
+}
+
+.BackgroundSegmentTall {
+	position: relative;
+	background-color: #141414;
+	width: 100%;
+	left: 0%;
+	height: 1350px;
+	z-index: 2;
+}
+
+#IntroText {
+	position: absolute;
+	left: 10%;
+	color: #FFFFFF;
+	width: 45%;
+	font-size: 20px;
+	z-index: 4;
+}
+
+#IntroText h1 {
+	color: #FF0000;
+	font-size: 48px;
+	font-family: "Tektur";
+	font-weight: 300;
+	margin: 0px 0px 9% 0px;
+}
+
+#IntroText P {
+	margin: 1% 0px 0px 0px;
+}
+
+#FinePrint {
+	font-size: 10px;
+	font-weight: 200;
+}
+
+#HexonLogo {
+	position: absolute;
+	left: 60%;
+	width: 35%;
+	aspect-ratio: 1 / 1;
+	z-index: 3;
+}
+
+#About {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: #FFFFFF;
+	z-index: 5;
+}
+
+#Pinup {
+	position: absolute;
+	aspect-ratio: 731/1280;
+	left: 21.45%;
+	width: 57.1%;
+	top: 2%;
+}
+
+#AboutTextBox {
+	position: absolute;
+	left: 10%;
+	width: 80%;
+	bottom: 0px;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #141414;
+	align-items: center;
+}
+
+#AboutTextBox div {
+	width: fit-content;
+}
+
+#AboutText {
+	font-size: 16px;
+	font-family: "Oxanium";
+	font-weight: 300;
+	margin-bottom: 15%;
+}
+
+#Skills {
+	flex-direction: column;
+	justify-content: center;
+	height: 1000px;
+}
+
+.SkillList {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+}
+
+.SkillListItem {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-evenly;
+	width: 100%;
+	left: 0%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
+.SkillSpecific {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 24px;
+	color: #FFFFFF;
+	margin: 0px 2%;
+	text-align: center;
+}
+
+.SkillLogo {
+	width: 100px;
+	height: 100px;
+}
+
+#HtmlCssJsLogo {
+	width: 171px;
+	height: 100px;
+}
+
+#FigmaLogo {
+	width: 67px;
+	height: 100px;
+}
+
+#ForzaLogo {
+	width: 224px;
+	height: 100px;
+}
+
+#ProjectsContainer {
+	position: absolute;
+	width: 80%;
+	height: 90%;
+	left: 10%;
+	top: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.ProjectHighlight {
+	height: 30%;
+	width: 100%;
+	margin-bottom: 5%;
+	background-color: #0D0D0D;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.ProjectText {
+	margin: 5%;
+	height: 80%;
+	width: 55%;
+}
+
+.ProjectText p {
+	color: #FFFFFF;
+	font-size: 16px;
+	margin-bottom: 0px;
+}
+
+.ProjectHighlight video {
+	width: 35%;
+	aspect-ratio: 16 / 9;
+	margin-right: 2%;
+}
+
+.ProjectHighlight img {
+	width: 35%;
+	aspect-ratio: 16 / 9;
+	margin-right: 2%;
+	color: #FFFFFF;
+}
+
+#ProjectsPageLink {
+	height: 8%;
+	width: 540px;
+	background-color: #0D0D0D;
+	color: #FF0000;
+	font-size: 48px;
+	font-family: "Oxanium";
+	font-weight: 300;
+	border-width: 0px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 86px;
+}
+
+#ProjectsPageLink span {
+	vertical-align: center;
+}
+
+#Contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 640px;
+}
+
+#ContactInfo {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 36px;
+	color: #FFFFFF;
+	left: 0px;
+	width: 80%;
+	margin-bottom: 10%;
+	align-items: flex-start;
+}
+
+#InfoTextBox {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.TextWithIcon {
+	display: flex;
+	height: 64px;
+	margin: 5% 0px;
+	align-items: center;
+}
+
+.TextWithIcon a {
+	margin: 0px 5%;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.TextWithIcon p {
+	margin: 0px 5%;
+}
+
+#LinkedInLink {
+	margin-top: 2%;
+	height: 47.5%;
+	width: 12.5%;
+}
+
+#LinkedInLogo {
+	width: 100%;
+	aspect-ratio: 1 / 1;
+}
+
+.Icon {
+	height: 100%;
+	aspect-ratio: 1 / 1;
+}
